@@ -28,6 +28,10 @@ func Hello(name string, language string) string {
 	return prefix + name
 }
 
+func Add(a, b int) int {
+	return a+b
+}
+
 func main() {
 	fmt.Println(Hello("World", ""))
 }
